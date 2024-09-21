@@ -24,10 +24,10 @@ import { usePathname, useRouter } from 'next/navigation';
 import { decryptKey, encryptKey } from '@/lib/utils';
   
 
-export const PasskeyModal = () => {
+const PasskeyModal = () => {
     const router = useRouter();
     const path = usePathname();
-    const [Open, setOpen] = useState(true);
+    const [open, setOpen] = useState(true);
     const [passkey, setPasskey] = useState('');
     const [error, setError] = useState('');
 

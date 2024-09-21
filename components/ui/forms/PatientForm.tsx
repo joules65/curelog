@@ -56,7 +56,7 @@ const [isLoading, setIsLoading] = useState(false);
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 flex-1">
         <section className="mb-12 space-y-4">
             <h1 className="header">Hello, Ndewo, Bawo ni, Ina Kwana, How far? </h1>
-            <p className="text-dark-700">Schedule your first appointment</p>
+            <p className="text-light-300">Schedule your first appointment</p>
         </section>
 
           <CustomFormField 
