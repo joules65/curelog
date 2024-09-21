@@ -26,8 +26,9 @@ export default async function NewAppointment({ params: { userId}}: SearchParamPr
             <AppointmentForm 
             type="create"
             userId={userId}
-            patientId={patient.$id}
-            /> 
+            patientId={patient.$id} setOpen={function (open: boolean): void {
+              throw new Error("Function not implemented.");
+            } }            /> 
 
               <p className="justify-items-end text-dark-600 xl:text-left">
               © 2024 CureLog

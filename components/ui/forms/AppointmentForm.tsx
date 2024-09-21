@@ -18,7 +18,7 @@ import  Image  from "next/image"
 import { createAppointment, updateAppointment } from "@/lib/actions/appointment.actions"
 import { Appointment } from "@/types/appwrite.types"
 
-const AppointmentForm = ({
+export const AppointmentForm = ({
     userId, patientId, type, appointment, setOpen
 }:{
     userId: string;
@@ -113,7 +113,7 @@ const AppointmentFormValidation = getAppointmentSchema(type);
     default:
       buttonLabel = "Submit Apppointment";
   }
-  
+
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 flex-1">
