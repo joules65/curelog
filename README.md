@@ -43,6 +43,8 @@
 ---
 
 ## ✨ Features
+<img width="1910" height="880" alt="Screenshot 2024-10-15 173400" src="https://github.com/user-attachments/assets/278e3dba-7031-401f-867c-24fc68058814" />
+<img width="1893" height="882" alt="Screenshot 2024-10-15 173538" src="https://github.com/user-attachments/assets/b68488e8-a732-4b48-9e52-e76bd6be8784" />
 
 ### For Patients
 - 👤 **Patient Registration** - Secure registration with medical information
